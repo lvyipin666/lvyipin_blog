@@ -1,0 +1,194 @@
+Watching for file changes with StatReloader
+Waiting for apps ready_event.
+Apps ready_event triggered. Sending autoreload_started signal.
+Watching dir D:\django_project\my_blog\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\django\contrib\admin\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\django\contrib\auth\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\django\contrib\contenttypes\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\django\contrib\sessions\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\django\contrib\messages\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\django\contrib\staticfiles\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\django\contrib\sites\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\allauth\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\allauth\account\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\allauth\socialaccount\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\allauth\socialaccount\providers\github\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\password_reset\locale with glob **/*.mo.
+Watching dir D:\django_project\my_blog\article\locale with glob **/*.mo.
+Watching dir D:\django_project\my_blog\userprofile\locale with glob **/*.mo.
+Watching dir D:\django_project\my_blog\comment\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\taggit\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\imagekit\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\ckeditor\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\mptt\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\notifications\locale with glob **/*.mo.
+Watching dir D:\django_project\my_blog\notice\locale with glob **/*.mo.
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+Watching for file changes with StatReloader
+Waiting for apps ready_event.
+Apps ready_event triggered. Sending autoreload_started signal.
+Watching dir D:\django_project\my_blog\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\django\contrib\admin\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\django\contrib\auth\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\django\contrib\contenttypes\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\django\contrib\sessions\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\django\contrib\messages\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\django\contrib\staticfiles\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\django\contrib\sites\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\allauth\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\allauth\account\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\allauth\socialaccount\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\allauth\socialaccount\providers\github\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\password_reset\locale with glob **/*.mo.
+Watching dir D:\django_project\my_blog\article\locale with glob **/*.mo.
+Watching dir D:\django_project\my_blog\userprofile\locale with glob **/*.mo.
+Watching dir D:\django_project\my_blog\comment\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\taggit\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\imagekit\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\ckeditor\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\mptt\locale with glob **/*.mo.
+Watching dir D:\django_project\env\lib\site-packages\notifications\locale with glob **/*.mo.
+Watching dir D:\django_project\my_blog\notice\locale with glob **/*.mo.
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) SELECT COUNT(*) AS "__count" FROM "article_articlepost"; args=()
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-12-09 08:46:32.134653' AND "django_session"."session_key" = 'rktgsy6jixqwi5uwh4tqmr8twekgocuy'); args=('2020-12-09 08:46:32.134653', 'rktgsy6jixqwi5uwh4tqmr8twekgocuy')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 8; args=(8,)
+(0.000) SELECT COUNT(*) AS "__count" FROM "notifications_notification" WHERE ("notifications_notification"."recipient_id" = 8 AND "notifications_notification"."unread" = 1); args=(8, True)
+(0.001) SELECT "article_articlepost"."id", "article_articlepost"."author_id", "article_articlepost"."avatar", "article_articlepost"."column_id", "article_articlepost"."title", "article_articlepost"."body", "article_articlepost"."total_views", "article_articlepost"."created", "article_articlepost"."updated" FROM "article_articlepost" ORDER BY "article_articlepost"."created" DESC  LIMIT 3; args=()
+(0.001) SELECT "article_articlecolumn"."id", "article_articlecolumn"."title", "article_articlecolumn"."created" FROM "article_articlecolumn" WHERE "article_articlecolumn"."id" = 3; args=(3,)
+(0.000) SELECT DISTINCT "taggit_tag"."id", "taggit_tag"."name", "taggit_tag"."slug" FROM "taggit_tag" INNER JOIN "taggit_taggeditem" ON ("taggit_tag"."id" = "taggit_taggeditem"."tag_id") INNER JOIN "django_content_type" ON ("taggit_taggeditem"."content_type_id" = "django_content_type"."id") WHERE ("django_content_type"."app_label" = 'article' AND "django_content_type"."model" = 'articlepost' AND "taggit_taggeditem"."object_id" = 44); args=('article', 'articlepost', 44)
+(0.001) SELECT COUNT(*) AS "__count" FROM "comment_comment" WHERE "comment_comment"."article_id" = 44; args=(44,)
+(0.000) SELECT "article_articlecolumn"."id", "article_articlecolumn"."title", "article_articlecolumn"."created" FROM "article_articlecolumn" WHERE "article_articlecolumn"."id" = 1; args=(1,)
+(0.000) SELECT DISTINCT "taggit_tag"."id", "taggit_tag"."name", "taggit_tag"."slug" FROM "taggit_tag" INNER JOIN "taggit_taggeditem" ON ("taggit_tag"."id" = "taggit_taggeditem"."tag_id") INNER JOIN "django_content_type" ON ("taggit_taggeditem"."content_type_id" = "django_content_type"."id") WHERE ("django_content_type"."app_label" = 'article' AND "django_content_type"."model" = 'articlepost' AND "taggit_taggeditem"."object_id" = 40); args=('article', 'articlepost', 40)
+(0.000) SELECT COUNT(*) AS "__count" FROM "comment_comment" WHERE "comment_comment"."article_id" = 40; args=(40,)
+(0.000) SELECT "article_articlecolumn"."id", "article_articlecolumn"."title", "article_articlecolumn"."created" FROM "article_articlecolumn" WHERE "article_articlecolumn"."id" = 1; args=(1,)
+(0.000) SELECT DISTINCT "taggit_tag"."id", "taggit_tag"."name", "taggit_tag"."slug" FROM "taggit_tag" INNER JOIN "taggit_taggeditem" ON ("taggit_tag"."id" = "taggit_taggeditem"."tag_id") INNER JOIN "django_content_type" ON ("taggit_taggeditem"."content_type_id" = "django_content_type"."id") WHERE ("django_content_type"."app_label" = 'article' AND "django_content_type"."model" = 'articlepost' AND "taggit_taggeditem"."object_id" = 29); args=('article', 'articlepost', 29)
+(0.000) SELECT COUNT(*) AS "__count" FROM "comment_comment" WHERE "comment_comment"."article_id" = 29; args=(29,)
+"GET /article/article-list/ HTTP/1.1" 200 16964
+"GET /media/article/20201209/u11795188662917213834fm26gp0_CZCw8ZE.jpg HTTP/1.1" 304 0
+"GET /media/article/20201209/u1986451467394304688fm26gp0_6uq52rH.jpg HTTP/1.1" 304 0
+"GET /media/article/20201209/u38637814902921643438fm26gp0.jpg HTTP/1.1" 304 0
+(0.001) SELECT "article_articlepost"."id", "article_articlepost"."author_id", "article_articlepost"."avatar", "article_articlepost"."column_id", "article_articlepost"."title", "article_articlepost"."body", "article_articlepost"."total_views", "article_articlepost"."created", "article_articlepost"."updated" FROM "article_articlepost" WHERE "article_articlepost"."id" = 44; args=(44,)
+(0.140) UPDATE "article_articlepost" SET "total_views" = 2 WHERE "article_articlepost"."id" = 44; args=(2, 44)
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-12-09 08:46:38.741444' AND "django_session"."session_key" = 'rktgsy6jixqwi5uwh4tqmr8twekgocuy'); args=('2020-12-09 08:46:38.741444', 'rktgsy6jixqwi5uwh4tqmr8twekgocuy')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 8; args=(8,)
+(0.000) SELECT COUNT(*) AS "__count" FROM "notifications_notification" WHERE ("notifications_notification"."recipient_id" = 8 AND "notifications_notification"."unread" = 1); args=(8, True)
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 8; args=(8,)
+(0.000) SELECT COUNT(*) AS "__count" FROM "comment_comment" WHERE "comment_comment"."article_id" = 44; args=(44,)
+(0.000) SELECT "comment_comment"."id", "comment_comment"."article_id", "comment_comment"."user_id", "comment_comment"."parent_id", "comment_comment"."reply_to_id", "comment_comment"."body", "comment_comment"."created", "comment_comment"."lft", "comment_comment"."rght", "comment_comment"."tree_id", "comment_comment"."level" FROM "comment_comment" WHERE "comment_comment"."article_id" = 44 ORDER BY "comment_comment"."tree_id" ASC, "comment_comment"."lft" ASC; args=(44,)
+"GET /article/article-detail/44/ HTTP/1.1" 200 13706
+"GET /static/prism/prism.css HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/config.js?t=K5H9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=K5H9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/lang/en.js?t=K5H9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/styles.js?t=K5H9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/codesnippet/plugin.js?t=K5H9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=K5H9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=K5H9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css?t=K5H9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/codesnippet/lang/en.js?t=K5H9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=eb2d11644 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png?t=K5H9 HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/contents.css?t=K5H9 HTTP/1.1" 304 0
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2020-12-09 08:46:40.568237' AND "django_session"."session_key" = 'rktgsy6jixqwi5uwh4tqmr8twekgocuy'); args=('2020-12-09 08:46:40.568237', 'rktgsy6jixqwi5uwh4tqmr8twekgocuy')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 8; args=(8,)
+(0.000) SELECT "article_articlepost"."id", "article_articlepost"."author_id", "article_articlepost"."avatar", "article_articlepost"."column_id", "article_articlepost"."title", "article_articlepost"."body", "article_articlepost"."total_views", "article_articlepost"."created", "article_articlepost"."updated" FROM "article_articlepost" WHERE "article_articlepost"."id" = 44; args=(44,)
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 8; args=(8,)
+(0.000) SELECT DISTINCT "taggit_tag"."name" FROM "taggit_tag" INNER JOIN "taggit_taggeditem" ON ("taggit_tag"."id" = "taggit_taggeditem"."tag_id") INNER JOIN "django_content_type" ON ("taggit_taggeditem"."content_type_id" = "django_content_type"."id") WHERE ("django_content_type"."app_label" = 'article' AND "django_content_type"."model" = 'articlepost' AND "taggit_taggeditem"."object_id" = 44); args=('article', 'articlepost', 44)
+(0.000) SELECT COUNT(*) AS "__count" FROM "notifications_notification" WHERE ("notifications_notification"."recipient_id" = 8 AND "notifications_notification"."unread" = 1); args=(8, True)
+(0.001) SELECT "article_articlecolumn"."id", "article_articlecolumn"."title", "article_articlecolumn"."created" FROM "article_articlecolumn"; args=()
+(0.000) SELECT "article_articlecolumn"."id", "article_articlecolumn"."title", "article_articlecolumn"."created" FROM "article_articlecolumn" WHERE "article_articlecolumn"."id" = 3; args=(3,)
+"GET /article/article-update/44/ HTTP/1.1" 200 9492
+Watching for file changes with StatReloader
+"GET /article/article-detail/40/ HTTP/1.1" 200 37744
+D:\django_project\my_blog\my_blog\settings.py changed, reloading.
+ERROR 2020-12-09 17:46:58,174 log 6880 7120 Internal Server Error: /article/article-create/
+Traceback (most recent call last):
+  File "D:\django_project\env\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\django_project\env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django_project\env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django_project\env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django_project\env\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "D:\django_project\my_blog\article\views.py", line 160, in article_create
+    return render(request, 'article/create.html',context)
+  File "D:\django_project\env\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\django_project\env\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\django_project\env\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\django_project\env\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\django_project\env\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\django_project\env\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\django_project\env\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "D:\django_project\env\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\django_project\env\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "D:\django_project\env\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\django_project\env\lib\site-packages\django\template\base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 2: 'static'. Did you forget to register or load this tag?
+ERROR 2020-12-09 17:48:28,207 log 11780 3724 Internal Server Error: /article/article-create/
+Traceback (most recent call last):
+  File "D:\django_project\env\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django_project\env\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django_project\env\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django_project\env\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "D:\django_project\my_blog\article\views.py", line 160, in article_create
+    return render(request, 'article/create.html',context)
+  File "D:\django_project\env\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\django_project\env\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\django_project\env\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\django_project\env\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\django_project\env\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\django_project\env\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\django_project\env\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "D:\django_project\env\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\django_project\env\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "D:\django_project\env\lib\site-packages\django\template\base.py", line 479, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "D:\django_project\env\lib\site-packages\django\template\base.py", line 496, in extend_nodelist
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends "base.html"> must be the first tag in the template.
