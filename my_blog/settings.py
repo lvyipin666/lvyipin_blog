@@ -24,7 +24,7 @@ SECRET_KEY = 't3!r$i8vw9u9)i)o@y-oqouj-@jnc6!jxkqsw^c-kq(yrvo325'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['.lvyipin.com', '47.96.225.229']
 
 # 静态文件收集目录
 STATIC_ROOT = os.path.join(BASE_DIR, 'collected_static')
